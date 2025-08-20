@@ -1,11 +1,15 @@
 {
     "displayName": "nestjs-client-s3",
     "name": "@fsdp0/nestjs-client-s3",
-    "version": "0.0.1",
+    "version": "0.0.11",
     "description": "NestJS AWS S3 Client Module Library",
     "author": {
-        "name": "RayLee",
+        "name": "Ray Lee",
         "email": "fsdp0dev@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/FSDP0/nestjs-client-s3.git"
     },
     "license": "Apache-2.0",
     "type": "commonjs",
