@@ -1,0 +1,42 @@
+{
+    "displayName": "nestjs-client-s3",
+    "name": "@fsdp0/nestjs-client-s3",
+    "version": "0.0.1",
+    "description": "NestJS AWS S3 Client Module Library",
+    "author": {
+        "name": "RayLee",
+        "email": "fsdp0dev@gmail.com"
+    },
+    "license": "MIT",
+    "type": "commonjs",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "compile": "tsc",
+        "build": "rimraf dist & node --run compile",
+        "prepublishOnly": "node --run build"
+    },
+    "keywords": [
+        "NestJS",
+        "AWS",
+        "S3"
+    ],
+    "dependencies": {
+        "@aws-sdk/client-s3": "^3.864.0",
+        "@nestjs/common": "^11.1.6",
+        "@nestjs/core": "^11.1.6",
+        "reflect-metadata": "^0.2.2",
+        "rxjs": "^7.8.2"
+    },
+    "peerDependencies": {
+        "@aws-sdk/client-s3": "^3.864.0"
+    },
+    "devDependencies": {
+        "@types/node": "^24.3.0",
+        "rimraf": "^6.0.1",
+        "typescript": "^5.9.2"
+    }
+}
