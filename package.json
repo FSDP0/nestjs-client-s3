@@ -7,7 +7,7 @@
         "name": "RayLee",
         "email": "fsdp0dev@gmail.com"
     },
-    "license": "MIT",
+    "license": "Apache-2.0",
     "type": "commonjs",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
